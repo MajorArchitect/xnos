@@ -1,0 +1,23 @@
+R +1
+L -1
+D +3
+U -3
+RD +4
+LU -4
+RU +2
+LD -2
+
+HOW WINNING WORKS
+
+     |     |
+  0  |  1  |  2
+_____|_____|_____
+     |     |
+  3  |  4  |  5
+_____|_____|_____
+     |     |
+  6  |  7  |  8
+     |     |
+
+Horizontal wins:
+if the current square has it's value PLUS 1 AND 2
