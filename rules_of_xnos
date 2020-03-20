@@ -20,4 +20,9 @@ _____|_____|_____
      |     |
 
 Horizontal wins:
-if the current square has it's value PLUS 1 AND 2
+If a square on the left has an x/o, and that square's reference plus 1 AND 2 have that same x/o, that player wins.
+Vertical wins:
+If a square on the top row has an x/o, and that square's reference plus 3 AND 6 have that same x/o, that player wins.
+Diagonal wins:
+If the middle square, reference 4, has an x/o, and that square's reference plus 2 AND minus 2 OR plus 4 AND minus 4 conatain that same x/o, that player wins.
+This logic is coded in the function checkwin in ai.c. It's arguments are the grid reference array ref[9] and an integer xo, intended to be 1 or 2, depending on what x/o you are checking.
