@@ -1,0 +1,4 @@
+This binary is compiled for:
+MacOSX
+It will change as I work on multiple platforms.
+The source does work cross-platform.
