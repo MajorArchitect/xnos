@@ -55,4 +55,5 @@ int checkwin(short ref[9], int xo)
       }
     }
   }
+  return 0;
 }
